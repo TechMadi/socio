@@ -1,0 +1,20 @@
+.banner {
+  margin-top: 40vh;
+  justify-content: center;
+  align-content: center;
+  .logo {
+    // width: 50%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      margin-top: 1rem;
+      color: var(--orange);
+    }
+  }
+}
